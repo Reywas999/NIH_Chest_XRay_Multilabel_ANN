@@ -10,9 +10,9 @@ WARNING: running "NIH_CXR8_Chest_X_Rays_Functions" will download all 100,000+ x-
 _________________________________________________________________________________________________________________________________
 NIH Chest X-ray Dataset of 14 Common Thorax Disease Categories:
 https://nihcc.app.box.com/v/ChestXray-NIHCC/file/371647823217
-1, Atelectasis; 
-2, Cardiomegaly; 
-3, Effusion; 
+1, Atelectasis; \
+2, Cardiomegaly; \
+3, Effusion; \
 4, Infiltration; 
 5, Mass; 
 6, Nodule; 
