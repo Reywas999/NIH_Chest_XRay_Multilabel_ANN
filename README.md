@@ -44,11 +44,42 @@ You will need to have the following files in your working directory:
 2) Split_Train_Val --> This folder contains test_list.txt and train_val_list.txt for splitting the data
 3) Data_Entry_2017_v2020.csv --> This file contains other patient data (see above)
 _________________________________________________________________________________________________________________________________
-ALTERNATIVELY:
+ALTERNATIVELY:\
 If you already have a trained model, you can simply run the "NIH_CXR8_Chest_X_Rays_linux.py" script.\
 A trained model is also provided.
 _________________________________________________________________________________________________________________________________
-INPUTS:
+INPUTS:\
 You will be required to enter the sample patient's age (1-130), gender (m, f), x-ray view position (PA, AP), and path to an 
 x-ray image. The linux script will also require a path for the trained model.
+_________________________________________________________________________________________________________________________________
+SAMPLE INPUT/OUTPUT:\
+(INPUT)\
+Enter patient age (1-130): 65\
+Enter patient gender (M/F): m\
+Enter view position (PA/AP): AP\
+Enter the path to the image: X_Ray_NN\All_images\00008340_002.png\
+\
+\
+(OUTPUT)\
+Prediction (values > 0.25):\
+\
+No predictions exceed the threshold of 0.25.\
+\
+Would you like to see the full list of predictions? (y/n): y\
+\
+Full Prediction List:\
+Atelectasis: 0.1511\
+Cardiomegaly: 0.0033\
+Effusion: 0.0807\
+Infiltration: 0.1881\
+Mass: 0.0391\
+Nodule: 0.0777\
+Pneumonia: 0.0156\
+Pneumothorax: 0.0296\
+Consolidation: 0.0216\
+Edema: 0.0097\
+Emphysema: 0.0149\
+Fibrosis: 0.0257\
+Pleural_Thickening: 0.0240\
+Hernia: 0.0012
 _________________________________________________________________________________________________________________________________
