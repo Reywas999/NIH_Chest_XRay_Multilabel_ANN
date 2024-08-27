@@ -1,6 +1,9 @@
 # NIH_Chest_XRay_Multilabel_ANN
 Multilabel ANN created using the NIH chest x-ray images and data as of (08/27/2024).
 _________________________________________________________________________________________________________________________________
+NOTE: Create a folder in your WD that is named X_Ray_NN. Store the split_train_val folder, data_entry_2017_v2020 csv file, 
+and/or trained_model file in this folder.
+_________________________________________________________________________________________________________________________________
 This personal project was just a proof of concept to get a working model that outputs likelihood values for each of the 14 
 potential outcome labels, given an input chest x-ray image (among other inputs). The f-score, precision, and accuracy are 
 abysmal. I've also attempted to create an ensemble model by first using a CNN for feature extraction, and then training both a 
@@ -42,5 +45,6 @@ You will need to have the following files in your working directory:
 3) Data_Entry_2017_v2020.csv --> This file contains other patient data (see above)
 _________________________________________________________________________________________________________________________________
 ALTERNATIVELY:
-If you already have a trained model, you can simply run the "NIH_CXR8_Chest_X_Rays_linux.py" script.
+If you already have a trained model, you can simply run the "NIH_CXR8_Chest_X_Rays_linux.py" script.\
+A trained model is also provided.
 _________________________________________________________________________________________________________________________________
