@@ -48,3 +48,7 @@ ALTERNATIVELY:
 If you already have a trained model, you can simply run the "NIH_CXR8_Chest_X_Rays_linux.py" script.\
 A trained model is also provided.
 _________________________________________________________________________________________________________________________________
+INPUTS:
+You will be required to enter the sample patient's age (1-130), gender (m, f), x-ray view position (PA, AP), and path to an 
+x-ray image. The linux script will also require a path for the trained model.
+_________________________________________________________________________________________________________________________________
