@@ -5,30 +5,30 @@ This personal project was just a proof of concept to get a working model that ou
 potential outcome labels, given an input chest x-ray image (among other inputs). The f-score, precision, and accuracy are 
 abysmal. I've also attempted to create an ensemble model by first using a CNN for feature extraction, and then training both a 
 KNN and Random Forest classifier on these features, but these both returned only slightly better results.
-
+\
 WARNING: running "NIH_CXR8_Chest_X_Rays_Functions" will download all 100,000+ x-ray images from the NIH website.
 _________________________________________________________________________________________________________________________________
-NIH Chest X-ray Dataset of 14 Common Thorax Disease Categories:
+NIH Chest X-ray Dataset of 14 Common Thorax Disease Categories:\
 https://nihcc.app.box.com/v/ChestXray-NIHCC/file/371647823217
-1, Atelectasis; \
+\1, Atelectasis; \
 2, Cardiomegaly; \
 3, Effusion; \
-4, Infiltration; 
-5, Mass; 
-6, Nodule; 
-7, Pneumonia; 
-8, Pneumothorax; 
-9, Consolidation; 
-10, Edema; 
-11, Emphysema; 
-12, Fibrosis; 
-13, Pleural_Thickening; 
-14, Hernia
+4, Infiltration; \
+5, Mass; \
+6, Nodule; \
+7, Pneumonia; \
+8, Pneumothorax; \
+9, Consolidation; \
+10, Edema; \
+11, Emphysema; \
+12, Fibrosis; \
+13, Pleural_Thickening; \
+14, Hernia\
 
 Meta data for all images (Data_Entry_2017_v2020.csv): Image Index, Finding Labels, Follow-up #,
 Patient ID, Patient Age, Patient Gender, View Position, Original Image Size and Original Image
 Pixel Spacing.
-
+\
 Two data split files (train_val_list.txt and test_list.txt) are provided. Images in the ChestX-ray
 dataset are divided into these two sets on the patient level. All studies from the same patient will
 only appear in either training/validation or testing set.
